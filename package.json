@@ -1,0 +1,31 @@
+{
+  "name": "previewer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.25.8",
+    "@codemirror/lang-html": "^6.4.9",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@monaco-editor/react": "^4.6.0",
+    "@uiw/react-codemirror": "^4.23.5",
+    "ace-builds": "^1.36.2",
+    "bootstrap": "^5.3.3",
+    "codemirror": "^6.0.1",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-ace": "^12.0.0",
+    "react-dom": "^18",
+    "react-monaco-editor": "^0.56.2",
+    "reactstrap": "^9.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15"
+  }
+}
